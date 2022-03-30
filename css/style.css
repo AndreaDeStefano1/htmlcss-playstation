@@ -1,0 +1,52 @@
+/* jumbotron */
+
+.jumbotron{
+  height: 75vh;
+  color: white; 
+  padding: 3vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron .container-fluid {
+ height: 100%;
+}
+.jumbotron .container-fluid .row{
+  align-items: flex-end;
+}
+.jumbotron .dst-btn{
+  background-color: rgb(206, 61, 16);
+}
+.jumbotron-1{
+  background-image: url(../img/jumbo-bg.png);
+}
+.jumbotron-2{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg)
+}
+
+/* gallery */
+
+.dst-card{
+  border: 3px solid transparent;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.dst-card.active{
+  border: 3px solid rgb(0, 113, 203);
+}
+.dst-card img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+/* playstation 5 */
+.playstation-5 .top img{
+  /* height: 35vw; */
+  width: 100%;
+}
+
+.playstation-5 .bottom img,
+.playstation-5 .bottom h4{
+  width: 100%;
+  opacity: 0.5;
+}
