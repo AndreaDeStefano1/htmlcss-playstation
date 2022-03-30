@@ -2,16 +2,16 @@
 
 .jumbotron{
   height: 75vh;
-  color: white; 
+  color: white;
   padding: 3vw;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.jumbotron .container-fluid {
+.jumbotron .container {
  height: 100%;
 }
-.jumbotron .container-fluid .row{
+.jumbotron .container .row{
   align-items: flex-end;
 }
 .jumbotron .dst-btn{
@@ -23,6 +23,10 @@
 .jumbotron-2{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg)
 }
+
+
+/* small */
+
 
 /* gallery */
 
@@ -41,7 +45,6 @@
 
 /* playstation 5 */
 .playstation-5 .top img{
-  /* height: 35vw; */
   width: 100%;
 }
 
@@ -49,4 +52,55 @@
 .playstation-5 .bottom h4{
   width: 100%;
   opacity: 0.5;
+}
+
+/* nuove uscite */
+.gallery-news{
+  color: white;
+  background-color: rgb(31, 31, 31);
+}
+.gallery-news img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+/* playstation 4 */
+
+/* plus */
+.jumbotron-small{
+  background-color: rgb(189, 188, 186);
+}
+.jumbotron-small .container,
+.jumbotron-small .container .row,
+.jumbotron-small .container .row .col{
+  height: 100%;
+}
+.jumbotron-small img{
+ width: 100%;
+}
+.plus img,
+.ps-now-logo img {
+  transform: scale(.9);
+  transform: translateX(-15px);
+}
+.jumbotron-small .btn{
+  background-color: rgb(217, 218, 220);
+  color: rgb(50, 104, 229);
+}
+
+
+/* sale */
+.square-card img{
+  width: 100%;
+}
+
+/* playstation now */
+
+.jumbotron-small.ps-now{
+  background-color: rgb(22, 28, 60);
+  color: white;
+}
+.jumbotron-small.ps-now .btn{
+  background-color: white;
+  color: black;
 }
