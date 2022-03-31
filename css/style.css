@@ -16,6 +16,19 @@ header .top img{
 .lens-search{
   width: 20px;
 }
+.dropdown-menu .bottom a{
+  text-decoration: none;
+}
+.dropdown-menu .row.bottom{
+  border-top: 1px solid grey;
+}
+.chevronna,
+.chevronna-hover{
+  width: 10px;
+}
+header nav ul li .chevronna-hover{
+  display: none;
+}
 
 
 /* jumbotron */
@@ -137,6 +150,7 @@ header .top img{
 .jumbotron-small .btn{
   background-color: rgb(217, 218, 220);
   color: rgb(50, 104, 229);
+  
 }
 
 
@@ -154,6 +168,8 @@ header .top img{
 .jumbotron-small.ps-now .btn{
   background-color: white;
   color: black;
+  font-weight: 500;
+  border: 3px solid transparent;
 }
 
 /* footer */

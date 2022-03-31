@@ -1,11 +1,11 @@
 /* botoni */
 
-.dst-btn-overlay{
+/* .dst-btn-overlay{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
+  width: 90%;
   height: 87%;
   border-radius: 20px;
   border: 2px solid white;
@@ -13,14 +13,32 @@
 }
 .btn:hover .dst-btn-overlay{
   display: block;
-}
-/* .btn:hover{
+} */
+ .btn:hover{
+  color: white;
+} 
+.btn:hover{
   outline: 3px solid rgb(45, 100, 229);
   border: 3px solid white;
   
-} */
-/* card scorre in alto */
+}
+.btn:focus{
+  box-shadow: none;
+  border: 3px solid transparent;
+  outline: 3px solid transparent;
+}
 
+/* chevron hover */
+header nav ul li:focus-within .chevronna{
+  display: none;
+}
+
+header nav ul li:focus-within .chevronna-hover{
+  display: inline-block; 
+  transform: rotate(180deg);
+}
+
+/* card scorre in alto */
 .gallery .container .row .col:hover .dst-card{
   transform: translateY(-15px);
   transition-duration: .5s;
@@ -38,3 +56,32 @@
 .playstation-5 .bottom .col.active{
   border-bottom: 2px solid blue;
 }
+.playstation-5 .bottom .col:hover  img,
+.playstation-5 .bottom  h5{
+  opacity: 1;
+}
+
+/* button hover ps plus */
+
+.jumbotron-small .btn:hover{
+  background-color: rgb(217, 218, 220);
+  color: rgb(50, 104, 229);
+  outline: none;
+  border: 3px solid rgb(217, 218, 220);
+  box-shadow: 0 0 0 0.25rem rgba(120, 122, 124, 0.25);
+}
+
+
+
+/* button hover ps now */
+
+.ps-now .btn:hover{
+  color: black;
+} 
+.ps-now .btn:hover{
+  outline: 3px solid white;
+  border: 3px solid rgb(22, 28, 60);
+  
+}
+
+
