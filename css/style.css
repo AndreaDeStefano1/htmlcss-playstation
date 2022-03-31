@@ -63,14 +63,16 @@ header .top img{
 
 
 /* gallery */
-
+.gallery .col{
+  cursor: pointer;
+}
 .dst-card{
   border: 3px solid transparent;
   border-radius: 30px;
   overflow: hidden;
 }
 .dst-card.active{
-  border: 3px solid rgb(0, 113, 203);
+  border: 3px solid rgb(111, 173, 226);
 }
 .dst-card img{
   width: 100%;
@@ -78,6 +80,9 @@ header .top img{
 }
 
 /* playstation 5 */
+.playstation-5 h6{
+  color: rgb(3, 98, 207);
+}
 .playstation-5 .top img{
   width: 100%;
 }
@@ -91,6 +96,7 @@ header .top img{
   opacity: 0.5;
   font-size: .95rem;
 }
+
 
 /* nuove uscite */
 .gallery-news{
@@ -125,8 +131,8 @@ header .top img{
 }
 .plus img,
 .ps-now-logo img {
-  transform: scale(.9);
-  transform: translateX(-15px);
+  width: 70%;
+  transform: translate(-10px);
 }
 .jumbotron-small .btn{
   background-color: rgb(217, 218, 220);
